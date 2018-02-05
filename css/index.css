@@ -1565,11 +1565,11 @@ a{
 }*/
 footer{
 	width: 100%;
-	/*height: 272px;
+	height: 272px;
 	/*background: red;*/
 	overflow: hidden;
 	float: left;
-	/*margin-top: 60px;*/
+	margin-top: 60px;
 }
 footer .nei .top{
 	width: 100%;
@@ -1589,6 +1589,12 @@ footer .nei .top .list{
 	margin-top: 27px;
 	text-align: center;
 	font-size: 16px;
+}
+footer .nei .top .list a:hover{
+	color: #ff6700;
+}
+footer .nei .content .left dd:hover{
+	color: #ff6700;
 }
 footer .nei .top .list:nth-child(5){
 	border-right: 0;
@@ -1664,7 +1670,15 @@ footer .nei .content .right .xi{
 }
 footer .nei .content .right .xi a{
 	color: #ef7e2e;
-
+}
+footer .nei .content .right .xi:hover{
+	background: #ff6700;
+}
+footer .nei .content .right .xi:hover a{
+	color: #fff;
+}
+footer .nei .content .right .xi:hover i{
+	color: #fff;
 }
 .zd{
 	width: 100%;
@@ -1701,6 +1715,9 @@ footer .nei .content .right .xi a{
 	color: #757575;
 	font-size: 12px;
 }
+.zd .tiao .zhong .shang a:hover{
+	color: #ff6700;
+}
 .zd .tiao .zhong .zz{
 	color: #b0b0b0;
 	font-size: 10px;
@@ -1708,6 +1725,9 @@ footer .nei .content .right .xi a{
 .zd .tiao .zhong .zz a{
 	color: #b0b0b0;
 	font-size: 10px;
+}
+.zd .tiao .zhong .zz a:hover{
+	color: #ff6700;
 }
 .zd .tiao .zhong .xx{
 	color: #b0b0b0;
